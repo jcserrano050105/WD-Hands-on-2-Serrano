@@ -1,158 +1,118 @@
-*, *::before, *::after, h6, p {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-/* Dev */
-.contents,
-.contents * {
-    /* outline: 1px dashed yellow; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    height: 300vh;
-    width: 100dvh;
-    overflow-x: hidden;
-}
-
-.hero-background {
-    width: 100dvw;
-    height: 100dvh;
-    background: url('../img/grassland-wallpaper.jpg');
-    object-fit: cover;
-    position: relative;
-
-    & .mascot {
-        position: absolute;
-        right: 2rem;
-        bottom: 0;
-        height: 15rem;
-    }
-}
-
-.contents {
-    width: 100dvw;
-    height: calc(100dvh - 60px);
+    color: var(--color-primary-1);
+    background: black;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    color: white;
+    align-items: center;
     justify-content: space-between;
-
-    & .top {
-        & .logo {
-            height: 50px;
-        }
-    }
-
-    & .middle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        
-        & .note {
-            font-size: 1rem;
-            padding: 2rem;
-            }
-
-            & .card {
-                padding: 2rem;
-                width: 35dvw;
-                background: rgba(255, 255, 255, 0.1);
-                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
-                font-size: 1.2rem;
-                border: 1px solid rgba(245, 245, 245, 0.212);
-                color: white;
-                border-radius: 15px;
-
-                & .card-img {
-                    position: absolute;
-                    height: calc(100% - 4rem);
-                    width: fit-content;
-                    right: 2rem;
-                    z-index: -1;
-                }
-
-                & .title {
-                    padding: 1rem 0;
-                    border-bottom: 1px white solid;
-                    width: fit-content;
-                    font-weight: 700;
-                    letter-spacing: 1.2rem;
-                    filter: invert(1);
-                }
-
-                & .description {
-                    padding: 1rem 0;
-                    width: 65%;
-                    font-size: 1rem;
-                    text-align: justify;
-                    text-justify: inter-word;
-                    filter: invert(1);
-                }
-
-                & i {
-                    filter: invert(1);
-                }
-            }
-
-        & .others {
-            display: flex;
-            justify-content: space-between;
-            width: 35dvw;
-            padding: 2rem;
-
-            p {
-                filter: invert(1);
-                padding: 0;
-                margin: 0;
-            }
-        }
-    }
-
-    & .bottom {
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 3rem;
-        filter: invert(1);
-
-        & .creators {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            & h6 {
-                padding: 0;
-                margin: 0;
-                font-weight: 650;
-            }
-
-            & p {
-                padding: 0;
-                margin: 0;
-            }
-        }
-    }
+    height: 100vh;
 }
 
-@media only screen and (max-width: 1024px) {
-    .contents {
-        & .middle {
-            & .card, & .others {
-                width: 70dvw;
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 
-            }
-        }
+.hero {
+    width: 100dvw;
+    position: relative;
+    color: white;
 
+    & .wallpaper {
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+        width: 110%;
+        height: 120vh;
+        overflow: hidden;
+        filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6);
     }
 
-    .hero-background {
-        & .mascot {
-            height: 10rem;
-        }
-    }
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 80px;
+  }
+
+
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    z-index: 1;
+  }
+
+  .card__image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .card__content {
+    text-align: center;
+  }
+
+  .card__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .card__description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .lbj-info {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    text-align: left;
+    color: white;
+  }
+
+  .lbj-info h2 {
+    color: red;
+    margin-bottom: 15px;
+  }
+
+  .lbj-info ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .lbj-info ul li {
+    margin-bottom: 10px;
+  }
+
+  .lbj-info ul li strong {
+    color: red;
+  }
+

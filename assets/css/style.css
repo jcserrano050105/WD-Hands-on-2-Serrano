@@ -20,16 +20,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--content-font);
+  font-size: medium;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--header-font);
-}
+
 
 body {
   color: var(--color-primary-1);
@@ -77,32 +71,4 @@ body {
   }
 }
 
-.bottom {
-  padding-bottom: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
 
-  & .year {
-    font-weight: 300;
-  }
-
-  & .logo {
-    height: 50px;
-  }
-}
-
-#loom-companion-mv3,
-.fiveserver-info-wrapper {
-  display: none;
-}
-
-@media only screen and (max-width: 1024px) {
-  .top {
-    & .title {
-      font-size: 4.5rem;
-      padding-left: 0;
-    }
-  }
-}
