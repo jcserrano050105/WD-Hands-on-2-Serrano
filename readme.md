@@ -57,7 +57,6 @@ A demonstration project including several card and hero themes and animations.
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
 Guiding Question:
 
@@ -66,9 +65,9 @@ The task entails generating several designs for different heroes and cards. The 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Static Card Design
+- Static Hero Design
+- Card Gallery
 
 ### Technology
 <!-- TODO: List of Technology Used -->
