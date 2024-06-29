@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-A demonstration project including several card and hero themes and animations. 
+A demonstration project including several card and hero themes and animations.
 </div>
 
 <br />
@@ -93,8 +93,7 @@ WD-ProjectName
 |   |   └─ style.css
 |   └─ img
 |   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|
 └─ pages
 |  └─ pageName
 |     └─ assets
@@ -102,8 +101,7 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
+|     |
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -114,4 +112,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Ian Ramirez | Template | https://github.com/zyx-0314 |
+| Logos       | Icons    | https://www.google.com/     |
+| Background  | Pictures | https://ph.pinterest.com/   |
+| Player Cards| Info     | https://ph.pinterest.com/   |
