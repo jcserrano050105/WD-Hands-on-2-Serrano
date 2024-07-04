@@ -44,75 +44,36 @@ body {
 
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  height: 100%;
+div.second-hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
-  gap: 2rem;
-  padding-top: 80px;
-}
-
-
-.card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 350px;
-  z-index: 1;
-}
-
-.card__image {
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 20px;
-}
-
-.card__content {
+  justify-content: space-between;
   text-align: center;
-}
 
-.card__title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+  & > div.first-content {
+      color: antiquewhite;
+      display: flex;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border: 2px solid rgba(245, 245, 245, 0.212);
+      border-radius: 15px;
+      background: rgba(41, 189, 53, 0.616);
+      width: 20%;
+      padding: 5rem;
+      }
 
-.card__description {
-  font-size: 16px;
-  line-height: 1.5;
-}
+      & > img {
+        padding-top: 5rem;
+        height: 850px;
+    }
 
-.lbj-info {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 15px;
-  padding: 20px;
-  margin-top: 20px;
-  max-width: 400px;
-  text-align: left;
-  color: white;
+  & > div.second-content {
+      color: rgb(252, 252, 252);
+      display: flex;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border: 2px solid rgba(245, 245, 245, 0.212);
+      border-radius: 15px;
+      background: rgba(41, 189, 53, 0.616);
+      width: 20%;
+      padding: 5rem;
+  }
 }
-
-.lbj-info h2 {
-  color:  darkblue;
-  margin-bottom: 15px;
-}
-
-.lbj-info ul {
-  list-style: none;
-  padding: 0;
-}
-
-.lbj-info ul li {
-  margin-bottom: 10px;
-}
-
-.lbj-info ul li strong {
-  color: darkblue;
-}
-

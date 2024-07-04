@@ -44,17 +44,6 @@
 
   }
 
-  .container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 2rem;
-    padding-top: 80px;
-  }
 
   .card {
     background: rgba(255, 255, 255, 0.1);
@@ -63,28 +52,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 350px;
+    max-width: 400px;
     z-index: 1;
-  }
-
-  .card__image {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-  }
-
-  .card__content {
-    text-align: center;
-  }
-
-  .card__title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .card__description {
-    font-size: 16px;
-    line-height: 1.5;
   }
 
   .lbj-info {
@@ -97,10 +66,7 @@
     color: white;
   }
 
-  .lbj-info h2 {
-    color:  darkgreen;
-    margin-bottom: 15px;
-  }
+
 
   .lbj-info ul {
     list-style: none;
@@ -112,6 +78,7 @@
   }
 
   .lbj-info ul li strong {
-    color: darkgreen;
+    color: red;
   }
+
 

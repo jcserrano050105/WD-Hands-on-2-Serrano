@@ -68,26 +68,6 @@ body {
     z-index: 1;
   }
 
-  .card__image {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-  }
-
-  .card__content {
-    text-align: center;
-  }
-
-  .card__title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .card__description {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
   .lbj-info {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 15px;
